@@ -38,5 +38,5 @@ model.fit(
     validation_split=0.05)
 
 #Step 4 - Plot the predictions!
-predictions = lstm.predict_sequences_multiple(model, X_test, 43, 43)
-lstm.plot_results_multiple(predictions, y_test, 43)
+predictions = lstm.predict_sequences_multiple(model, X_test, 50, 50)
+lstm.plot_results_multiple(predictions, y_test, 50)
